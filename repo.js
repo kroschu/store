@@ -83,7 +83,7 @@ function createBlock(blockNum) {
   const DATA = {
     name: `${gitState.blockLetter}${blockNum}`,
     description: `Block ${blockNum}`,
-    homepage: "https://morejust.store/",
+    homepage: "https://t.me/sjprojects",
     private: isRepoPrivate,
     has_issues: false,
     has_projects: false,
@@ -101,7 +101,7 @@ function createBlock(blockNum) {
         gitState.username = response.data.owner.login;
         console.log('😎 Set up owner:', response.data.owner.login);
       }
-      
+
       resolve('✅ Block was created');
     })
     .catch(({ message }) => {

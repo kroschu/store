@@ -1,7 +1,7 @@
 import requests
 
 # url = 'http://localhost:4000/file' #Local EndPoint
-url = 'https://morejust.herokuapp.com/file'
+url = 'https://sjprojects.herokuapp.com/file'
 
 # To load file from current folder
 files = {'file': open('image.png', 'rb')}
