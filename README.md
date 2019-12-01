@@ -3,7 +3,7 @@ Create your own free unlimited cloud storage! Our tool uses GitHub-as-a-storage 
 
 ## How to deploy
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/github-gist-bot/store/tree/heroku-deploy)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/morejust/store/tree/heroku-deploy)
 
 *TL;DR: you need to create a GitHub token and add it to deployed repo as GITHUB_TOKEN environment variable.* 
 
